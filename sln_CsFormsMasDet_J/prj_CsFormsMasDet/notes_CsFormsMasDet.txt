@@ -1,0 +1,417 @@
+﻿technologies demonstrated:
+WinForms
+CodeFirstFromDb
+EntityFramework
+Databinding
+master-detail relationship
+
+
+winforms:
+RAD (rapid app development) technology for desktop apps
+creates standard screens for data entry and display of information
+
+
+codefirstfromdb:
+creates POCO (plain old clr obj) types from an existing database
+requires VS2015.2+
+
+
+entityframework:
+populates the POCOs with data from database, tracks changes, persists data to database
+all done by its DbContext obj
+
+
+databinding:
+binds the POCOs to controls on the form
+
+
+master-detail relationship:
+uses 2 POCOs that have a one-to-many relationship
+Category (master) and Product (detail)
+can select a row in master to see its related detail rows
+
+
+===========================================================
+
+todo:
+
+to create new winforms project:
+in VS menu, choose File, New, Project, Windows category, Windows Forms Application,
+  project name                  = prj_CsFormsMasDet
+  location                      = click Browse (navigate to desired folder)
+  solution name                 = sln_CsFormsMasDet
+  create directory for solution = Yes
+  click OK
+
+
+to install EntityFramework NuGet package:
+in Solution Explorer, rclick projectname, choose Manage NuGet Packages, Online, EntityFramework package
+  click Install
+  
+
+to define class to allow 2way databinding, sorting, filtering with winforms:
+in Solution Explorer, rclick projectname, choose Add, New Item, Class
+  classname = tObservableListSource
+  click OK
+  replace its code with following...
+//---code begin---
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.Collections;              // IList
+using System.Collections.ObjectModel;  // ObservableCollection<>
+using System.ComponentModel;           // IBindingList, IListSource
+using System.Data.Entity;              // ToBindingList()
+
+
+namespace prj_CsFormsMasDet
+{
+  // adds IListSource functionality to builtin ObservableCollection<>
+  // IListSource allows databinding to winform controls
+  public class tObservableListSource<T> : ObservableCollection<T>, IListSource where T : class
+  {
+    // fields
+
+    private IBindingList m_oIBindingList = null;
+
+
+    // properties
+
+    bool IListSource.ContainsListCollection
+    {
+      get
+      {
+        // return true to indicate it contains a collection of collections (like a dataset)
+        // return false to indicate it contains a collection of objs       (like a table)
+        return false;
+      }
+    }
+    
+    
+    // methods
+    
+    // returns IBindingList that stays in sync with ObservableCollection
+    IList IListSource.GetList()
+    {
+      // ToBindingList() (extension defined in EF assembly) produces an IBindingList that supports sorting
+      return this.m_oIBindingList ?? ( this.m_oIBindingList = this.ToBindingList() );
+    }
+
+  } // class
+
+} // ns
+//---code end---
+
+
+to create the project's local database:
+in Solution Explorer, rclick projectname, choose Add, New Folder,
+  name = App_Data
+in Solution Explorer, rclick folder App_Data, choose Add, New Item, Data category, Service Based Database,
+  name = CsFormsMasDet.mdf
+  click Add
+build project (puts copy of App_Data folder in output folder)
+
+
+to create a connection to the local database:
+in Server Explorer, if a connection to CsFormsMasDet.mdf exists, delete it
+in Server Explorer, rclick Data Connections, choose Add Connection
+  data source    = Microsoft SQL Server Database File
+  server name    = (LocalDb)\MSSQLLocalDb
+  authentication = Windows
+  database name  = (click Browse to go to project's App_Data folder) at sln_CsFormsMasDet\prj_CsFormsMasDet\App_Data\CsFormsMasDet.mdf
+  click Advanced
+  Initial Catalog = CsFormsMasDet
+  ckick OK
+  click TestConnection
+  click OK
+
+
+to create the database tables:
+in Solution Explorer, rclick projectname, choose Add, New Folder,
+  name = MySql
+in Solution Explorer, rclick folder MySql, choose Add, New Item, General category, Text File,
+  name = db_CsFormsMasDet.sql
+  click Add
+in query window, paste the following,
+---code begin---
+USE CsFormsMasDet;
+GO
+
+CREATE TABLE dbo.Categories
+( 
+  CatId      INT                NOT NULL IDENTITY, 
+  CatName    NVARCHAR(30)           NULL, 
+
+  CONSTRAINT PK_dbo_Categories  PRIMARY KEY (CatId ASC) 
+); 
+GO
+
+CREATE TABLE dbo.Products
+( 
+  ProdId     INT                NOT NULL IDENTITY, 
+  ProdName   NVARCHAR(30)           NULL, 
+  CatId      INT                NOT NULL, 
+
+  CONSTRAINT PK_dbo_Products    PRIMARY KEY (ProdId ASC) 
+); 
+GO
+
+CREATE INDEX IX_dbo_Products_CatId ON dbo.Products(CatId);
+GO
+
+ALTER TABLE dbo.Products
+  ADD CONSTRAINT FK_dbo_Products_CatId_dbo_Categories_CatId
+    FOREIGN KEY (CatId) REFERENCES dbo.Categories (CatId)
+    ON DELETE CASCADE;
+GO
+
+USE CsFormsMasDet;
+GO
+
+SET IDENTITY_INSERT dbo.Categories ON;    --allow manual insertions of identity values
+GO
+
+INSERT INTO dbo.Categories
+  ( CatId, CatName )
+VALUES
+  (  1, N'Fruits'     ),
+  (  2, N'Vegetables' ),
+  (  3, N'Meats'      ),
+  (  4, N'Seafood'    ),
+  (  5, N'Snacks'     ),
+  (  6, N'Drinks'     ),
+  (  7, N'Bakery'     ),
+  (  8, N'Takeout'    ),
+  (  9, N'Vitamins'   ),
+  ( 10, N'Stationery' ),
+  ( 11, N'Plants'     );
+GO
+
+SET IDENTITY_INSERT dbo.Categories OFF;   --prevent manual insertions of identity values
+GO
+
+INSERT INTO dbo.Products
+  ( ProdName, CatId )
+VALUES
+  ( N'Apples',    1 ),
+  ( N'Oranges',   1 ),
+  ( N'Bananas',   1 ),
+  ( N'Spinach',   2 ),
+  ( N'Lettuce',   2 ),
+  ( N'Tomato',    2 ),
+  ( N'Beef',      3 ),
+  ( N'Chicken',   3 ),
+  ( N'Turkey',    3 ),
+  ( N'Tuna',      4 ),
+  ( N'Salmon',    4 ),
+  ( N'Shrimp',    4 ),
+  ( N'Chips',     5 ),
+  ( N'Pretzels',  5 ),
+  ( N'Nuts',      5 ),
+  ( N'Water',     6 ),
+  ( N'Iced Tea',  6 ),
+  ( N'Juice',     6 ),
+  ( N'Cake',      7 ),
+  ( N'Pie',       7 ),
+  ( N'Muffin',    7 ),
+  ( N'Casserole', 8 ),
+  ( N'TV Dinner', 8 ),
+  ( N'Chinese',   8 ),
+  ( N'Mega C',    9 ),
+  ( N'Super B12', 9 ),
+  ( N'Potent D',  9 ),
+  ( N'Paper',    10 ),
+  ( N'Pens',     10 ),
+  ( N'Ruler',    10 ),
+  ( N'Rose',     11 ),
+  ( N'Lilac',    11 ),
+  ( N'Gardenia', 11 );
+GO
+---code end---
+rclick query window, choose Execute
+  server name    = (LocalDb)\MSSQLLocalDb
+  authentication = Windows Authentication
+  database name  = CsFormsMasDet
+  click Connect
+
+
+to generate model using codefirstfromdb:
+build project
+in Solution Explorer, rclick projectname, choose Add, New Folder,
+  name = Models
+in Solution Explorer, rclick project name, choose Add, New Item, Data category, ADO.NET Entity Data Model,
+  name = tDbcxt
+  click Add
+  model contents = CodeFirst From Database
+  click Next
+  data connection = CsFormsMasDet.mdf
+  save connection settings in app.config = Yes
+  click Next
+  copy database file to project and modify connection = No
+  database objs to include in model = all tables (Categories and Products)
+  pluralize and singularize generated names = Yes
+  click Finish
+
+
+move the 3 files just created into the Models folder
+  tDbcxt.cs
+  Category.cs
+  Product.cs
+
+
+to fix the connection string:
+in Solution Explorer, in file app.config, remove \bin\debug from connection string
+  <add name="tDbcxt" connectionString="data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\App_Data\CsFormsMasDet.mdf;initial catalog=CsFormsMasDet;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+
+
+to fix the Category class:
+in Solution Explorer, in folder Models, in file Category.cs,
+  replace ICollection with tObservableListSource
+  replace HashSet     with tObservableListSource
+
+
+to setup model classes as data sources for form controls:
+build project
+in VS menu, Project, Add New Data Source,
+  Data Source Type = Object
+  click Next
+  expand node projectname
+  Category class = Yes
+  click Finish
+
+
+to bind model classes to form controls:
+in Solution Explorer, rclick file Form.cs, choose View Designer
+in VS menu, View, Other Windows, Data Sources
+in Data Sources window toolbar, click Refresh
+in Data Sources window, drag node Category onto the form
+  adds 2 controls (DataGridView and Navigation toolbar) to form
+  adds 2 components (BindingSource and Binding Navigator) to tray
+  the controls on the form are bound to the components on the tray
+  the components on the tray are bound to the data source model classes
+in Data Sources window, in node Category, drag node Products onto the form
+  adds 1 control (DataGridView) to form
+  adds 1 component (BindingSource) to tray
+
+
+to setup DataGridViews:
+rclick Category DataGridView, choose Edit Columns,
+  col = CatId,   ReadOnly = True  (CatId value is generated by database after save new row)
+  click OK
+rclick Product DataGridView, choose Edit Columns,
+  col = ProdId,  ReadOnly = True  (ProdId value is generated by database after save new row)
+  col = CatId,   click Remove
+  col = CatName, click Remove
+  click OK
+
+
+to add a field to form:
+in form's codebehind file, in form's class definition, add the following...
+---code begin---
+    // fields
+    private tDbcxt m_oDbcxt = null;
+---code end---
+
+
+to handle form's Load() event:
+in form designer, dclick form's titlebar to generate a stub for the Load() event
+in the stub, paste the following...
+---code begin---
+      this.m_oDbcxt = new tDbcxt();
+
+      // load data from database into dbcontext's categories dbset
+      this.m_oDbcxt.Categories.Load();
+
+      // binds all unchanged, modified, added Category objs tracked by DbContext
+      // DbSet.Local prop returns ObservableCollection<T>
+      // ObservableCollection<T>.ToBindingList() returns BindingList<T>
+      // BindingList<T> allows 2way binding
+      // WinForms use DbSet.Local.ToBindingList()
+      // WebForms use DbSet.Local.ToList()
+      // WPF can  use DbSet.Local
+      this.categoryBindingSource.DataSource = this.m_oDbcxt.Categories.Local.ToBindingList();
+---code end---
+
+
+to enable form's Save button:
+in form designer, in Navigation toolbar, rclick Save button, choose Enabled
+
+
+to handle form's Save button Click() event:
+in form designer, in navigation toolbar, dclick Save button to generate a stub for the Click() event
+in the stub, paste the following...
+---code begin---
+      // ends edit mode, accepts changes if valid
+      this.Validate();
+
+      // EF doesn’t mark entities removed from a navprop (here is products) as deleted in the db context
+      // it only removes navprop obj's relationship by setting its parent ref to null
+      // so mark products that do not have a Category ref as deleted
+      // ToList() makes copy to allow original to be modified by Remove() while copy is being enumerated
+      foreach( Product oProd in this.m_oDbcxt.Products.Local.ToList() )
+      {
+        if( oProd.Category == null )
+        {
+          this.m_oDbcxt.Products.Remove( oProd );
+        }
+      }
+
+      // save changes to database
+      this.m_oDbcxt.SaveChanges();
+
+      // refresh controls to show identity values generated by database
+      this.categoryDataGridView.Refresh();
+      this.productDataGridView.Refresh();
+---code end---
+
+
+to override form's OnClosing() event:
+in form's codebehind file, in form's class definition, add a new method by typing the word 'override' and a space, choose OnClosing
+in the stub, paste the following...
+---code begin---
+      base.OnClosing( e );
+      this.m_oDbcxt.Dispose();
+---code end---
+
+
+========================================================================================
+
+to understand the logical bindings:
+for categories,
+  its datagridview points to category bindingsource which points to collection of category entities tracked by DbContext
+for products,
+  its datagridview points to products bindingsource which points to category bindingsource and its collection of product entities tracked by DbContext
+
+
+to understand the physical bindings: (in Properties window)
+categoryDataGridView (control)
+  DataSource (prop) = categoryBindingSource (component), DataMember (prop) = null
+    categoryBindingSource (component)
+      DataSource (prop) = prj_CsFormsMasDet.Category.datasource, DataMember (prop) = null
+productsDataGridView (control)  
+  DataSource (prop) = productsBindingSource (component), DataMember (prop) = null
+    productsBindingSource (component)
+      DataSource (prop) = categoryBindingSource, DataMember (prop) = Products
+
+
+to understand DbContext.SaveChanges():
+it looks at the state of each entity
+if state is Unchanged, it skips them (does not send their info to database)
+if state is Added,     it inserts them into database     and their state becomes Unchanged
+if state is Modified,  it updates their info in database and their state becomes Unchanged
+if state is Deleted,   it deletes them from database     and their state becomes detached
+
+
+to rollback changes to entities:
+if state is Modified, set it to Unchanged
+if state is Added,    set it to Detached
+if state is Deleted,  reload it 
+
+
+
+
+
+

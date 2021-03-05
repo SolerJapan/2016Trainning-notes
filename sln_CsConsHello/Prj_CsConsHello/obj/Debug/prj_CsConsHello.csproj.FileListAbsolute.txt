@@ -1,0 +1,7 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\bin\Debug\prj_CsConsHello.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHello\Prj_CsConsHello\bin\Debug\Prj_CsConsHello.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHello\Prj_CsConsHello\obj\Debug\Prj_CsConsHello.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHello\Prj_CsConsHello\obj\Debug\Prj_CsConsHello.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHello\Prj_CsConsHello\bin\Debug\Prj_CsConsHello.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHello\Prj_CsConsHello\bin\Debug\Prj_CsConsHello.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHello\Prj_CsConsHello\obj\Debug\Prj_CsConsHello.csprojResolveAssemblyReference.cache

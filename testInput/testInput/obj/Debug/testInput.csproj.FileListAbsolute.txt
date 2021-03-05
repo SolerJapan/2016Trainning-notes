@@ -1,0 +1,9 @@
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\bin\Debug\testInput.exe.config
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\bin\Debug\testInput.exe
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\bin\Debug\testInput.pdb
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\obj\Debug\testInput.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\obj\Debug\testInput.tFormInput.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\obj\Debug\testInput.Properties.Resources.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\obj\Debug\testInput.csproj.GenerateResource.Cache
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\obj\Debug\testInput.exe
+C:\Users\Alexander\documents\visual studio 2015\Projects\testInput\testInput\obj\Debug\testInput.pdb

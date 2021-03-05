@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="consultantModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="division">
+    <Key>
+      <PropertyRef Name="did" />
+    </Key>
+    <Property Name="did" Type="int" Nullable="false" />
+    <Property Name="dname" Type="varchar" MaxLength="25" />
+    <Property Name="managerID" Type="int" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="empID" />
+    </Key>
+    <Property Name="empID" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" />
+    <Property Name="salary" Type="float" />
+    <Property Name="did" Type="int" />
+  </EntityType>
+  <EntityType Name="project">
+    <Key>
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="pid" Type="int" Nullable="false" />
+    <Property Name="pname" Type="varchar" MaxLength="25" />
+    <Property Name="budget" Type="float" />
+    <Property Name="did" Type="int" />
+  </EntityType>
+  <EntityType Name="workon">
+    <Key>
+      <PropertyRef Name="pid" />
+      <PropertyRef Name="empID" />
+    </Key>
+    <Property Name="pid" Type="int" Nullable="false" />
+    <Property Name="empID" Type="int" Nullable="false" />
+    <Property Name="hours" Type="int" />
+  </EntityType>
+  <Association Name="employee_did_fk">
+    <End Role="division" Type="Self.division" Multiplicity="0..1" />
+    <End Role="employee" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="division">
+        <PropertyRef Name="did" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="did" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__workon__empID__1920BF5C">
+    <End Role="employee" Type="Self.employee" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="empID" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="empID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__workon__pid__182C9B23">
+    <End Role="project" Type="Self.project" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="pid" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="pid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="project_did_fk">
+    <End Role="division" Type="Self.division" Multiplicity="0..1" />
+    <End Role="project" Type="Self.project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="division">
+        <PropertyRef Name="did" />
+      </Principal>
+      <Dependent Role="project">
+        <PropertyRef Name="did" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="workon_empid_fk">
+    <End Role="employee" Type="Self.employee" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="empID" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="empID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="workon_pid_fk">
+    <End Role="project" Type="Self.project" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="pid" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="pid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="consultantModelStoreContainer">
+    <EntitySet Name="division" EntityType="Self.division" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="project" EntityType="Self.project" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="workon" EntityType="Self.workon" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="employee_did_fk" Association="Self.employee_did_fk">
+      <End Role="division" EntitySet="division" />
+      <End Role="employee" EntitySet="employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK__workon__empID__1920BF5C" Association="Self.FK__workon__empID__1920BF5C">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="workon" EntitySet="workon" />
+    </AssociationSet>
+    <AssociationSet Name="FK__workon__pid__182C9B23" Association="Self.FK__workon__pid__182C9B23">
+      <End Role="project" EntitySet="project" />
+      <End Role="workon" EntitySet="workon" />
+    </AssociationSet>
+    <AssociationSet Name="project_did_fk" Association="Self.project_did_fk">
+      <End Role="division" EntitySet="division" />
+      <End Role="project" EntitySet="project" />
+    </AssociationSet>
+    <AssociationSet Name="workon_empid_fk" Association="Self.workon_empid_fk">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="workon" EntitySet="workon" />
+    </AssociationSet>
+    <AssociationSet Name="workon_pid_fk" Association="Self.workon_pid_fk">
+      <End Role="project" EntitySet="project" />
+      <End Role="workon" EntitySet="workon" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

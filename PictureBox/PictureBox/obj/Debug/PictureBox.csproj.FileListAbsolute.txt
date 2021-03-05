@@ -1,0 +1,12 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\bin\Debug\PictureBox.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\bin\Debug\PictureBox.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\bin\Debug\PictureBox.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\obj\Debug\PictureBox.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\obj\Debug\PictureBox.PictureBoxTestForm.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\obj\Debug\PictureBox.Properties.Resources.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\obj\Debug\PictureBox.csproj.GenerateResource.Cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\obj\Debug\PictureBox.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\PictureBox\obj\Debug\PictureBox.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\PictureBox\PictureBox\bin\Debug\PictureBox.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\PictureBox\PictureBox\obj\Debug\PictureBox.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\PictureBox\PictureBox\obj\Debug\PictureBox.pdb

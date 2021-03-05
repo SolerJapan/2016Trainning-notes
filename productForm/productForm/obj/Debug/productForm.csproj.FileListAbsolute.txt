@@ -1,0 +1,28 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\bin\Debug\productForm.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\bin\Debug\productForm.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\bin\Debug\productForm.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\MainWindow.g.cs
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\App.g.cs
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm_MarkupCompile.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm_MarkupCompile.lref
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\MainWindow.baml
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm.g.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm.Properties.Resources.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm.csproj.GenerateResource.Cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\productForm\obj\Debug\productForm.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\bin\Debug\productForm.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\bin\Debug\productForm.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\bin\Debug\productForm.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\MainWindow.g.cs
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\App.g.cs
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm_MarkupCompile.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm_MarkupCompile.lref
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\MainWindow.baml
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm.g.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\productForm\productForm\obj\Debug\productForm.csproj.GenerateResource.Cache

@@ -1,0 +1,32 @@
+﻿testing:
+2 ways
+unit test
+browser test
+
+
+unit test:
+use Test Explorer window
+
+
+browser test:
+must run webapi app so its home page shows in browser
+home page (represents server) indicates app is running and listening for requests
+must open new browser window (represents client) and make requests from it
+app's home page can't be used to make requests to itself
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

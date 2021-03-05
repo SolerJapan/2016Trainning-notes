@@ -1,0 +1,18 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\bin\Debug\listCollection.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\bin\Debug\listCollection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\bin\Debug\listCollection.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\obj\Debug\listCollection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\obj\Debug\listCollection.Form1.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\obj\Debug\listCollection.Properties.Resources.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\obj\Debug\listCollection.csproj.GenerateResource.Cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\obj\Debug\listCollection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\listCollection\obj\Debug\listCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\bin\Debug\listCollection.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\obj\Debug\listCollection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\obj\Debug\listCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\bin\Debug\listCollection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\bin\Debug\listCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\obj\Debug\listCollection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\obj\Debug\listCollection.Form1.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\obj\Debug\listCollection.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\listCollection\listCollection\obj\Debug\listCollection.csproj.GenerateResource.Cache

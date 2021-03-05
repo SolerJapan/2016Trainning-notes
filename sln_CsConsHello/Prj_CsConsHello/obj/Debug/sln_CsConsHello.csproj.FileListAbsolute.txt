@@ -1,0 +1,6 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\bin\Debug\prj_CsConsHello.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\bin\Debug\prj_CsConsHello.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\bin\Debug\prj_CsConsHello.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\obj\Debug\sln_CsConsHello.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\obj\Debug\prj_CsConsHello.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\prj_CsConsHello\obj\Debug\prj_CsConsHello.pdb

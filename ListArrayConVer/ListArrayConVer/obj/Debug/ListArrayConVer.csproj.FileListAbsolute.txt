@@ -1,0 +1,6 @@
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ListArrayConVer\ListArrayConVer\bin\Debug\ListArrayConVer.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ListArrayConVer\ListArrayConVer\bin\Debug\ListArrayConVer.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ListArrayConVer\ListArrayConVer\bin\Debug\ListArrayConVer.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ListArrayConVer\ListArrayConVer\obj\Debug\ListArrayConVer.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ListArrayConVer\ListArrayConVer\obj\Debug\ListArrayConVer.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ListArrayConVer\ListArrayConVer\obj\Debug\ListArrayConVer.pdb

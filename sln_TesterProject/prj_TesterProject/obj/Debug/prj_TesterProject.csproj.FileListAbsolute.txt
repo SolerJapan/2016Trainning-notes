@@ -1,0 +1,15 @@
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\prj_TesterProject.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\App_Data\TestData.mdf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\App_Data\TestData_log.ldf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\prj_TesterProject.exe
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\prj_TesterProject.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\EntityFramework.dll
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\EntityFramework.xml
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\obj\Debug\prj_TesterProject.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\obj\Debug\prj_TesterProject.testerPrj.resources
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\obj\Debug\prj_TesterProject.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\obj\Debug\prj_TesterProject.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\obj\Debug\prj_TesterProject.exe
+c:\users\alexander\documents\visual studio 2015\Projects\sln_TesterProject\prj_TesterProject\obj\Debug\prj_TesterProject.pdb

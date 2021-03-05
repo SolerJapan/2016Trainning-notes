@@ -1,0 +1,10 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\RadioButtonsTest\bin\Debug\RadioButtonsTest.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\bin\Debug\RadioButtonsTest.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\bin\Debug\RadioButtonsTest.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\bin\Debug\RadioButtonsTest.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\obj\Debug\RadioButtonsTest.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\obj\Debug\RadioButtonsTest.csproj.GenerateResource.Cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\obj\Debug\RadioButtonsTest.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\obj\Debug\RadioButtonsTest.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\obj\Debug\RadioButtonsTest.radioButtonsTestForm.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\RadioButtonsTest\RadioButtonsTest\obj\Debug\RadioButtonsTest.csprojResolveAssemblyReference.cache

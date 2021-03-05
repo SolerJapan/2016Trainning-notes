@@ -1,0 +1,11 @@
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\bin\Debug\winFormTester.exe.config
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\bin\Debug\winFormTester.exe
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\bin\Debug\winFormTester.pdb
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.tFormInput.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.tformProto.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.winFormTester2.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.Properties.Resources.resources
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.csproj.GenerateResource.Cache
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.exe
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.pdb
+C:\Users\Alexander\documents\visual studio 2015\Projects\WinFormTester\winFormTester\obj\Debug\winFormTester.csprojResolveAssemblyReference.cache

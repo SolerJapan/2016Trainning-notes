@@ -1,0 +1,43 @@
+﻿<Window x:Class="ConsultantWPF.EmpForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsultantWPF"
+        Title="EmpForm" Height="350" Width="500" mc:Ignorable="d" Loaded="Window_Loaded" >
+    <Window.Resources>
+        <local:consultantDataSet x:Key="consultantDataSet"/>
+        <CollectionViewSource x:Key="employeeViewSource" Source="{Binding employee, Source={StaticResource consultantDataSet}}"/>
+    </Window.Resources>
+
+
+
+
+
+    <StackPanel Height="300" Width="480" DataContext="{StaticResource employeeViewSource}" >
+        <StackPanel Height="50" Width="480" Background="Azure">
+            <TextBlock Height="40" FontSize="24" FontWeight="Bold"
+                   TextAlignment="Center" Margin="5" Foreground="Red"> 
+                Employee Table Data View</TextBlock>
+
+
+        </StackPanel>
+
+        <Grid>
+
+
+
+
+
+        </Grid>
+        <DataGrid x:Name="employeeDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" Height="200" ItemsSource="{Binding}" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="empIDColumn" Binding="{Binding empID}" Header="emp ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="nameColumn" Binding="{Binding name}" Header="name" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="salaryColumn" Binding="{Binding salary}" Header="salary" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="didColumn" Binding="{Binding did}" Header="did" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </StackPanel>
+</Window>

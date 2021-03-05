@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="consultantModelStoreContainer" CdmEntityContainer="consultantEntities">
+    <EntitySetMapping Name="divisions">
+      <EntityTypeMapping TypeName="consultantModel.division">
+        <MappingFragment StoreEntitySet="division">
+          <ScalarProperty Name="did" ColumnName="did" />
+          <ScalarProperty Name="dname" ColumnName="dname" />
+          <ScalarProperty Name="managerID" ColumnName="managerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="consultantModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="empID" ColumnName="empID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="did" ColumnName="did" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="projects">
+      <EntityTypeMapping TypeName="consultantModel.project">
+        <MappingFragment StoreEntitySet="project">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="pname" ColumnName="pname" />
+          <ScalarProperty Name="budget" ColumnName="budget" />
+          <ScalarProperty Name="did" ColumnName="did" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="workons">
+      <EntityTypeMapping TypeName="consultantModel.workon">
+        <MappingFragment StoreEntitySet="workon">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="empID" ColumnName="empID" />
+          <ScalarProperty Name="hours" ColumnName="hours" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bookstore>
+  <book ISBN="10-000000-001" title="The Iliad and the odyssey" price="12.95">
+    <comments>
+      <userComment rating ="4" comment="Best translation i read yet"/>
+      <userComment rating ="1" comment="this was crap"/>
+      
+    </comments>
+
+  </book>
+
+  <book ISBN="10-066773-001" title="The snow country" price="17.95">
+    <comments>
+      <userComment rating ="5" comment="deep story"/>
+      <userComment rating ="5" comment="loved it"/>
+
+    </comments>
+
+  </book>
+
+
+  <book ISBN="10-0033220-001" title="The tale of Genji" price="16.95">
+    <comments>
+      <userComment rating ="3" comment="a subpar translation"/>
+      <userComment rating ="3" comment="one version of the story "/>
+
+    </comments>
+
+  </book>
+
+
+  <book ISBN="10-555500-001" title="The legend of Kaguya-Hime" price="11.95">
+    <comments>
+      <userComment rating ="4" comment="Best translation i read so far"/>
+      <userComment rating ="5" comment="great story"/>
+
+    </comments>
+
+  </book>
+
+  <book ISBN="11-234000-001" title="The Art of War" price="15.95">
+    <comments>
+      <userComment rating ="4" comment="Best translation i read yet"/>
+      <userComment rating ="5" comment="good insight to war"/>
+
+    </comments>
+
+  </book>
+  
+  
+</bookstore>

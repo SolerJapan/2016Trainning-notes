@@ -1,0 +1,73 @@
+﻿<Window x:Class="ConsultantWPF.DivSearch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsultantWPF"
+        mc:Ignorable="d"
+        Title="DivSearch" Height="350" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:consultantDataSet x:Key="consultantDataSet"/>
+        <CollectionViewSource x:Key="divisionViewSource" Source="{Binding division, Source={StaticResource consultantDataSet}}"/>
+    </Window.Resources>
+    <StackPanel Width="500" Height="300">
+
+        <StackPanel Orientation="Horizontal" Background="OrangeRed">
+            <TextBlock Width="150" Height="30" FontSize="20" >
+               Division Search:
+            </TextBlock>
+
+
+            <Button Margin="10,0,10,0" Name="button1" Content="Previous Record"
+                    VerticalAlignment="Center" Click="button1_Click">
+            </Button>
+            <Button Margin="10,0,10,0" Name="button2" Content="Next Record"
+                    VerticalAlignment="Center" Click="button2_Click">
+
+            </Button>
+
+        </StackPanel>
+        <Grid Name="grdPrdoductDetails" Height="240" Background="LightGreen" DataContext="{StaticResource divisionViewSource}">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="100">
+
+                </ColumnDefinition>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" MinHeight="60"></RowDefinition>
+                <RowDefinition Height="Auto" MinHeight="60"></RowDefinition>
+                <RowDefinition Height="Auto" MinHeight="60"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+
+            </Grid.RowDefinitions>
+
+            <TextBlock Margin="7">Division ID:</TextBlock>
+            <TextBox Margin="5" Grid.Column="1" Text="{Binding did, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}">
+            </TextBox>
+
+            <TextBlock Margin="7" Grid.Row="1">Division Name:</TextBlock>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" 
+                     Text="{Binding Path=DivisionName}"></TextBox>
+
+            <TextBlock Margin="7" Grid.Row="2">Manager ID:</TextBlock>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" 
+                     Text="{Binding dname, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"></TextBox>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <TextBox Margin="5,5,5,4.6" Grid.Row="2" Grid.Column="1" 
+                         Text="{Binding managerID, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Width="390">
+
+                </TextBox>
+
+            </StackPanel>
+
+
+        </Grid>
+
+    </StackPanel>
+
+
+</Window>

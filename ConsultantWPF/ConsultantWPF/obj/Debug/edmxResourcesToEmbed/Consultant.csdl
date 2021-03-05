@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="consultantModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="division">
+    <Key>
+      <PropertyRef Name="did" />
+    </Key>
+    <Property Name="did" Type="Int32" Nullable="false" />
+    <Property Name="dname" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="managerID" Type="Int32" />
+    <NavigationProperty Name="employees" Relationship="Self.employee_did_fk" FromRole="division" ToRole="employee" />
+    <NavigationProperty Name="projects" Relationship="Self.project_did_fk" FromRole="division" ToRole="project" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="empID" />
+    </Key>
+    <Property Name="empID" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="salary" Type="Double" />
+    <Property Name="did" Type="Int32" />
+    <NavigationProperty Name="division" Relationship="Self.employee_did_fk" FromRole="employee" ToRole="division" />
+    <NavigationProperty Name="workons" Relationship="Self.FK__workon__empID__1920BF5C" FromRole="employee" ToRole="workon" />
+    <NavigationProperty Name="workons1" Relationship="Self.workon_empid_fk" FromRole="employee" ToRole="workon" />
+  </EntityType>
+  <EntityType Name="project">
+    <Key>
+      <PropertyRef Name="pid" />
+    </Key>
+    <Property Name="pid" Type="Int32" Nullable="false" />
+    <Property Name="pname" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="budget" Type="Double" />
+    <Property Name="did" Type="Int32" />
+    <NavigationProperty Name="division" Relationship="Self.project_did_fk" FromRole="project" ToRole="division" />
+    <NavigationProperty Name="workons" Relationship="Self.FK__workon__pid__182C9B23" FromRole="project" ToRole="workon" />
+    <NavigationProperty Name="workons1" Relationship="Self.workon_pid_fk" FromRole="project" ToRole="workon" />
+  </EntityType>
+  <EntityType Name="workon">
+    <Key>
+      <PropertyRef Name="pid" />
+      <PropertyRef Name="empID" />
+    </Key>
+    <Property Name="pid" Type="Int32" Nullable="false" />
+    <Property Name="empID" Type="Int32" Nullable="false" />
+    <Property Name="hours" Type="Int32" />
+    <NavigationProperty Name="employee" Relationship="Self.FK__workon__empID__1920BF5C" FromRole="workon" ToRole="employee" />
+    <NavigationProperty Name="employee1" Relationship="Self.workon_empid_fk" FromRole="workon" ToRole="employee" />
+    <NavigationProperty Name="project" Relationship="Self.FK__workon__pid__182C9B23" FromRole="workon" ToRole="project" />
+    <NavigationProperty Name="project1" Relationship="Self.workon_pid_fk" FromRole="workon" ToRole="project" />
+  </EntityType>
+  <Association Name="employee_did_fk">
+    <End Role="division" Type="Self.division" Multiplicity="0..1" />
+    <End Role="employee" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="division">
+        <PropertyRef Name="did" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="did" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="project_did_fk">
+    <End Role="division" Type="Self.division" Multiplicity="0..1" />
+    <End Role="project" Type="Self.project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="division">
+        <PropertyRef Name="did" />
+      </Principal>
+      <Dependent Role="project">
+        <PropertyRef Name="did" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__workon__empID__1920BF5C">
+    <End Role="employee" Type="Self.employee" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="empID" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="empID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="workon_empid_fk">
+    <End Role="employee" Type="Self.employee" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="empID" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="empID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__workon__pid__182C9B23">
+    <End Role="project" Type="Self.project" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="pid" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="pid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="workon_pid_fk">
+    <End Role="project" Type="Self.project" Multiplicity="1" />
+    <End Role="workon" Type="Self.workon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="project">
+        <PropertyRef Name="pid" />
+      </Principal>
+      <Dependent Role="workon">
+        <PropertyRef Name="pid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="consultantEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="divisions" EntityType="Self.division" />
+    <EntitySet Name="employees" EntityType="Self.employee" />
+    <EntitySet Name="projects" EntityType="Self.project" />
+    <EntitySet Name="workons" EntityType="Self.workon" />
+    <AssociationSet Name="employee_did_fk" Association="Self.employee_did_fk">
+      <End Role="division" EntitySet="divisions" />
+      <End Role="employee" EntitySet="employees" />
+    </AssociationSet>
+    <AssociationSet Name="project_did_fk" Association="Self.project_did_fk">
+      <End Role="division" EntitySet="divisions" />
+      <End Role="project" EntitySet="projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__workon__empID__1920BF5C" Association="Self.FK__workon__empID__1920BF5C">
+      <End Role="employee" EntitySet="employees" />
+      <End Role="workon" EntitySet="workons" />
+    </AssociationSet>
+    <AssociationSet Name="workon_empid_fk" Association="Self.workon_empid_fk">
+      <End Role="employee" EntitySet="employees" />
+      <End Role="workon" EntitySet="workons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__workon__pid__182C9B23" Association="Self.FK__workon__pid__182C9B23">
+      <End Role="project" EntitySet="projects" />
+      <End Role="workon" EntitySet="workons" />
+    </AssociationSet>
+    <AssociationSet Name="workon_pid_fk" Association="Self.workon_pid_fk">
+      <End Role="project" EntitySet="projects" />
+      <End Role="workon" EntitySet="workons" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

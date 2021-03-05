@@ -1,0 +1,34 @@
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsForm03MatchGame\bin\Debug\prj_CsForm03MatchGame.exe.config
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsForm03MatchGame\obj\Debug\prj_CsForm03MatchGame.exe
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsForm03MatchGame\obj\Debug\prj_CsForm03MatchGame.pdb
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe.config
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.pdb
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.Properties.Resources.resources
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.csproj.GenerateResource.Cache
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.exe
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.pdb
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.Form1.resources
+D:\Train_msf\Train_Cs\sln_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.tFormMatchGame.resources
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe.config
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.exe
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.pdb
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.pdb
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.csprojResolveAssemblyReference.cache
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.Form1.resources
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.Properties.Resources.resources
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.tFormMatchGame.resources
+D:\Train_msf\Train_Cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.csproj.GenerateResource.Cache
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe.config
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.exe
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.pdb
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.pdb
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.csprojResolveAssemblyReference.cache
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.Properties.Resources.resources
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.tFormMatchGame.resources
+C:\Users\jak\Train_msf\Train_cs\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.csproj.GenerateResource.Cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln2_CsFormMatchGame\prj_CsFormMatchGame\bin\Debug\prj_CsFormMatchGame.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln2_CsFormMatchGame\prj_CsFormMatchGame\obj\Debug\prj_CsFormMatchGame.pdb

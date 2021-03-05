@@ -1,0 +1,7 @@
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\bin\Debug\ArrayListCollection'.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\bin\Debug\ArrayListCollection'.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\bin\Debug\ArrayListCollection'.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\bin\Debug\ArrayListCollection'.exe.CodeAnalysisLog.xml
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\bin\Debug\ArrayListCollection'.exe.lastcodeanalysissucceeded
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\obj\Debug\ArrayListCollection'.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListCollection'\ArrayListCollection'\obj\Debug\ArrayListCollection'.pdb

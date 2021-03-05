@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="consultant" Class="consultantDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PC\SSEXP2012;Initial Catalog=consultant;Integrated Security=True" SettingsObjectName="DisplayTable.Properties.Settings" SettingsPropertyName="consultantConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.division" Member="divisions">
+    <Type Name="division">
+      <Column Name="did" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dname" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="managerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="division_employee" Member="employees" ThisKey="did" OtherKey="did" Type="employee" />
+      <Association Name="division_project" Member="projects" ThisKey="did" OtherKey="did" Type="project" />
+    </Type>
+  </Table>
+  <Table Name="dbo.employee" Member="employees">
+    <Type Name="employee">
+      <Column Name="empID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="salary" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="did" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="employee_workon" Member="workons" ThisKey="empID" OtherKey="empID" Type="workon" />
+      <Association Name="employee_workon1" Member="workons1" ThisKey="empID" OtherKey="empID" Type="workon" />
+      <Association Name="division_employee" Member="division" ThisKey="did" OtherKey="did" Type="division" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.project" Member="projects">
+    <Type Name="project">
+      <Column Name="pid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pname" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="budget" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="did" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="project_workon" Member="workons" ThisKey="pid" OtherKey="pid" Type="workon" />
+      <Association Name="project_workon1" Member="workons1" ThisKey="pid" OtherKey="pid" Type="workon" />
+      <Association Name="division_project" Member="division" ThisKey="did" OtherKey="did" Type="division" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.workon" Member="workons">
+    <Type Name="workon">
+      <Column Name="pid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="empID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hours" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="employee_workon" Member="employee" ThisKey="empID" OtherKey="empID" Type="employee" IsForeignKey="true" />
+      <Association Name="project_workon" Member="project" ThisKey="pid" OtherKey="pid" Type="project" IsForeignKey="true" />
+      <Association Name="employee_workon1" Member="employee1" ThisKey="empID" OtherKey="empID" Type="employee" IsForeignKey="true" />
+      <Association Name="project_workon1" Member="project1" ThisKey="pid" OtherKey="pid" Type="project" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,2 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayListConVer\bin\Debug\ArrayListConVer.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayListConVer\ArrayListConVer\bin\Debug\ArrayListConVer.exe.config

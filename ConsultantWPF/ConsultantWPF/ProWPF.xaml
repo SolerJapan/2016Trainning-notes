@@ -1,0 +1,35 @@
+﻿<Window x:Class="ConsultantWPF.ProWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsultantWPF"
+        mc:Ignorable="d"
+        Title="ProWPF" Height="350" Width="500" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:consultantDataSet x:Key="consultantDataSet"/>
+        <CollectionViewSource x:Key="projectViewSource" Source="{Binding project, Source={StaticResource consultantDataSet}}"/>
+    </Window.Resources>
+
+    <StackPanel Height="300" Width="480" DataContext="{StaticResource projectViewSource}" >
+        <StackPanel Height="50" Width="480" Background="Azure">
+            <TextBlock Height="40" FontSize="24" FontWeight="Bold"
+                   TextAlignment="Center" Margin="5" Foreground="Red"> 
+                Project Table Data View</TextBlock>
+
+
+        </StackPanel>
+
+        <Grid>
+
+        </Grid>
+        <DataGrid x:Name="projectDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" Height="200" ItemsSource="{Binding}" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="pidColumn" Binding="{Binding pid}" Header="pid" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="pnameColumn" Binding="{Binding pname}" Header="pname" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="budgetColumn" Binding="{Binding budget}" Header="budget" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="didColumn" Binding="{Binding did}" Header="did" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,2 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\Project\bin\Debug\Project.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Project\Project\bin\Debug\Project.exe.config

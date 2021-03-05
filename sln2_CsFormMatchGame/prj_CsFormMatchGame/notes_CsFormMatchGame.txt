@@ -1,0 +1,69 @@
+﻿create new windows forms project
+  project  name = prj_CsFormMatchGame
+  solution name = sln_CsFormMatchGame
+
+in Solution Explorer, rename file Form1.cs to tFormMatchGame.cs
+
+set the form properties
+  Name          = tFormMatchGame
+  Text          = "Match Game"
+  Size          = 550 x 550
+  StartPosition = CenterScreen
+
+add to the form a TableLayoutPanel
+  Name            = oTblLayPanel
+  Dock            = Fill
+  BackColor       = CornflowerBlue  (a Web color)
+  CellBorderStyle = Inset
+
+show tablelayoutpanel tasks popup
+  Edit Rows and Cols
+  add 2 cols to make 4 cols total
+  set all cols to 25%
+  add 2 rows to make 4 rows total
+  set all rows to 25%
+
+add to the 1st cell a label control
+  Name                       = oLab1
+  BackColor                  = CornflowerBlue
+  AutoSize                   = False
+  Dock                       = Fill
+  TextAlign                  = MiddleCenter
+  FontName                   = Webdings  (click ... to use FontDialog)
+  FontStyle                  = Bold
+  FontSize                   = 36
+  Text                       = "c"     (box symbol)
+  UseMnemonic                = False
+  UseCompatibleTextRendering = True
+
+copy the label and paste it into the remaining cells
+rename the labels as oLab1 (1st cell) to oLab16 (last cell)
+
+in the code file, add to the form, 2 fields for a Random obj and a List obj
+
+write a utility method called InitList() to populate the list obj with 8 pairs of symbols
+
+write a utility method called InitCells() to give each cell a randomly chosen item from the list obj, and hide all the cell labels text
+
+write a utility method called CheckWinner() to check if the user has won (all the cell labels are unhidden)
+
+dclick the form's titlebar to generate the load event handler
+in the handler, initialize the random obj, list obj, and cells
+
+build and run
+
+add 2 fields to store references to the 2 clicked labels
+
+add to the form a Timer component
+  Name     = oTimer
+  Interval = 1000
+
+in the form's tray, dclick the timer component to generate its tick event handler
+in the handler, stop the timer, and hide the text of the 2 clicked labels
+
+dclick the 1st cell's label to generate its click event handler
+select all the remaining cell labels and assign them the same click event handler
+add code to the event handler to unhide up to 2 clicked cells and hide them after 1 sec if they don't match
+
+
+

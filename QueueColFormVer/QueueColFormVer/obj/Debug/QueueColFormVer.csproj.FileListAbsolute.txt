@@ -1,0 +1,10 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\QueueColFormVer\bin\Debug\QueueColFormVer.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\bin\Debug\QueueColFormVer.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\bin\Debug\QueueColFormVer.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\bin\Debug\QueueColFormVer.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\obj\Debug\QueueColFormVer.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\obj\Debug\QueueColFormVer.Form1.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\obj\Debug\QueueColFormVer.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\obj\Debug\QueueColFormVer.csproj.GenerateResource.Cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\obj\Debug\QueueColFormVer.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\QueueColFormVer\QueueColFormVer\obj\Debug\QueueColFormVer.pdb

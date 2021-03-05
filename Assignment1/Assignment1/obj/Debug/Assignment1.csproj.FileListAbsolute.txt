@@ -1,0 +1,11 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\Assignment1\obj\Debug\Assignment1.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Assignment1\Assignment1\obj\Debug\Assignment1.csprojResolveAssemblyReference.cache

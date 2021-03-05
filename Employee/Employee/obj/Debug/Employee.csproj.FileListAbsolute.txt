@@ -1,0 +1,2 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\Employee\bin\Debug\Employee.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Employee\Employee\bin\Debug\Employee.exe.config

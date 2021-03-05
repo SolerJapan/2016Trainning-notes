@@ -1,0 +1,77 @@
+﻿<Window x:Class="productForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:productForm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Width="500" Height="300">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="100" Height="24">
+                Product ID:
+            </TextBlock>
+
+            <TextBox MinWidth="100" Name="textbox1" Margin="15"
+                     Text="{Binding Path=ProductID}">
+
+
+            </TextBox>
+            <Button Margin="10,0,10,0" Name="button1" Content="Get Product Information"
+                    VerticalAlignment="Center" Click="button1_Click">
+
+            </Button>
+
+        </StackPanel>
+        <Grid Name="grdPrdoductDetails" Height="240" Background="LightBlue">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="100">
+
+                </ColumnDefinition>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" MinHeight="29"></RowDefinition>
+                <RowDefinition Height="Auto" MinHeight="29"></RowDefinition>
+                <RowDefinition Height="Auto" MinHeight="29"></RowDefinition>
+                <RowDefinition Height="Auto" MinHeight="29"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+
+            </Grid.RowDefinitions>
+
+            <TextBlock Margin="7">Quantity Per Unit:</TextBlock>
+            <TextBox Margin="5" Grid.Column="1" Text="{Binding Path=QuantityPerUnit}">
+            </TextBox>
+
+            <TextBlock Margin="7" Grid.Row="1">Product Name</TextBlock>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" 
+                     Text="{Binding Path=ProductName}"></TextBox>
+
+            <TextBlock Margin="7" Grid.Row="2">Unit Price</TextBlock>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" 
+                     Text="{Binding Path=UnitPrice}"></TextBox>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <TextBox Margin="5" Grid.Row="2" Grid.Column="1" MaxWidth="100" 
+                         Text="{Binding Path=UnitPrice}" Width="101">
+
+                </TextBox>
+                <Button Margin="5" Name="cmdIncreasedPrice" Height="20"
+                        Width="115">increase Price</Button>
+            </StackPanel>
+
+
+            <TextBlock Margin="7" Grid.Row="3">Description</TextBlock>
+            <TextBox Margin="7" Grid.Row="4" Grid.ColumnSpan="2" 
+                     TextWrapping="Wrap" Text="{Binding Path=Description}"></TextBox>
+
+              
+                
+        </Grid>
+
+    </StackPanel>
+
+
+</Window>

@@ -1,0 +1,6 @@
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayLsit\ArrayLsit\bin\Debug\ArrayLsit.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayLsit\ArrayLsit\bin\Debug\ArrayLsit.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayLsit\ArrayLsit\bin\Debug\ArrayLsit.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayLsit\ArrayLsit\obj\Debug\ArrayLsit.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayLsit\ArrayLsit\obj\Debug\ArrayLsit.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\ArrayLsit\ArrayLsit\obj\Debug\ArrayLsit.pdb

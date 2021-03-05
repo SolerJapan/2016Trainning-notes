@@ -1,0 +1,18 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\bin\Debug\sqlServerConnection.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\obj\Debug\sqlServerConnection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\obj\Debug\sqlServerConnection.SQLServerConnectionTest.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\obj\Debug\sqlServerConnection.Properties.Resources.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\obj\Debug\sqlServerConnection.csproj.GenerateResource.Cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\bin\Debug\sqlServerConnection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\bin\Debug\sqlServerConnection.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\obj\Debug\sqlServerConnection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\sqlServerConnection\obj\Debug\sqlServerConnection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\bin\Debug\sqlServerConnection.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\obj\Debug\sqlServerConnection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\obj\Debug\sqlServerConnection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\bin\Debug\sqlServerConnection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\bin\Debug\sqlServerConnection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\obj\Debug\sqlServerConnection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\obj\Debug\sqlServerConnection.SQLServerConnectionTest.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\obj\Debug\sqlServerConnection.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sqlServerConnection\sqlServerConnection\obj\Debug\sqlServerConnection.csproj.GenerateResource.Cache

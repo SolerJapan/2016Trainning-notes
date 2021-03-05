@@ -1,0 +1,18 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\bin\Debug\stackCollection.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\obj\Debug\stackCollection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\obj\Debug\stackCollection.Form1.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\obj\Debug\stackCollection.Properties.Resources.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\obj\Debug\stackCollection.csproj.GenerateResource.Cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\bin\Debug\stackCollection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\bin\Debug\stackCollection.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\obj\Debug\stackCollection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\stackCollection\obj\Debug\stackCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\bin\Debug\stackCollection.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\obj\Debug\stackCollection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\obj\Debug\stackCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\bin\Debug\stackCollection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\bin\Debug\stackCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\obj\Debug\stackCollection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\obj\Debug\stackCollection.Form1.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\obj\Debug\stackCollection.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\stackCollection\stackCollection\obj\Debug\stackCollection.csproj.GenerateResource.Cache

@@ -1,0 +1,33 @@
+﻿<Window x:Class="ConsultantWPF.WorkonWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsultantWPF"
+        mc:Ignorable="d"
+        Title="WorkonWPF" Height="350" Width="500" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:consultantDataSet x:Key="consultantDataSet"/>
+        <CollectionViewSource x:Key="workonViewSource" Source="{Binding workon, Source={StaticResource consultantDataSet}}"/>
+    </Window.Resources>
+    <StackPanel Height="300" Width="480" DataContext="{StaticResource workonViewSource}" >
+        <StackPanel Height="50" Width="480" Background="Azure">
+            <TextBlock Height="40" FontSize="24" FontWeight="Bold"
+                   TextAlignment="Center" Margin="5" Foreground="Red"> 
+                Workon Table Data View</TextBlock>
+
+
+        </StackPanel>
+
+        <Grid>
+
+        </Grid>
+        <DataGrid x:Name="workonDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" Height="200" ItemsSource="{Binding}" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="pidColumn" Binding="{Binding pid}" Header="pid" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="empIDColumn" Binding="{Binding empID}" Header="emp ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="hoursColumn" Binding="{Binding hours}" Header="hours" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>

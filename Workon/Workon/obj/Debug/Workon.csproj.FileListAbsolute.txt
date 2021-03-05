@@ -1,0 +1,2 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\Workon\bin\Debug\Workon.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Workon\Workon\bin\Debug\Workon.exe.config

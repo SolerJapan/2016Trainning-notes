@@ -1,0 +1,12 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\bin\Debug\arrayCollection.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\bin\Debug\arrayCollection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\bin\Debug\arrayCollection.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\obj\Debug\arrayCollection.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\obj\Debug\arrayCollection.Form.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\obj\Debug\arrayCollection.Properties.Resources.resources
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\obj\Debug\arrayCollection.csproj.GenerateResource.Cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\obj\Debug\arrayCollection.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\arrayCollection\obj\Debug\arrayCollection.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\arrayCollection\arrayCollection\bin\Debug\arrayCollection.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\arrayCollection\arrayCollection\obj\Debug\arrayCollection.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\arrayCollection\arrayCollection\obj\Debug\arrayCollection.pdb

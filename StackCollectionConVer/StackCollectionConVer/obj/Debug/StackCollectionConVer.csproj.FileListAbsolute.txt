@@ -1,0 +1,6 @@
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\StackCollectionConVer\StackCollectionConVer\bin\Debug\StackCollectionConVer.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\StackCollectionConVer\StackCollectionConVer\bin\Debug\StackCollectionConVer.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\StackCollectionConVer\StackCollectionConVer\bin\Debug\StackCollectionConVer.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\StackCollectionConVer\StackCollectionConVer\obj\Debug\StackCollectionConVer.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\StackCollectionConVer\StackCollectionConVer\obj\Debug\StackCollectionConVer.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\StackCollectionConVer\StackCollectionConVer\obj\Debug\StackCollectionConVer.pdb

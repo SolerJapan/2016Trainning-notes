@@ -1,0 +1,6 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayColectionConVer\bin\Debug\ArrayColectionConVer.exe.config
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayColectionConVer\bin\Debug\ArrayColectionConVer.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayColectionConVer\bin\Debug\ArrayColectionConVer.pdb
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayColectionConVer\obj\Debug\ArrayColectionConVer.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayColectionConVer\obj\Debug\ArrayColectionConVer.exe
+C:\Users\Alexander\AppData\Local\Temporary Projects\ArrayColectionConVer\obj\Debug\ArrayColectionConVer.pdb

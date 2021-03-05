@@ -1,0 +1,39 @@
+﻿<Window x:Class="ConsultantWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsultantWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="680" Loaded="Window_Loaded">
+    <StackPanel Height="480" Width="680">
+    <StackPanel Height="50" Width="680">
+        <TextBlock Margin="5" Height="40" Width="640" TextAlignment="Center" 
+                   FontSize="24" FontWeight="Bold" Foreground="Crimson" Background="Aquamarine">
+            Consultant Database
+            
+            
+        </TextBlock>
+        
+        
+    </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320"></ColumnDefinition>
+                <ColumnDefinition Width="160"></ColumnDefinition>
+                <ColumnDefinition Width="160"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ListBox Name="Listbox1" Width="280" Height="350" DataContext="{Binding}">
+                
+            </ListBox>
+            <Button Name="Button1" Grid.Column="1" Margin="5"
+                    Height="35" VerticalAlignment="Center" Click="Button1_Click"
+                    Content="Open Tables">
+                
+            </Button>
+            <Button Name="Button2" Grid.Column="2" Margin="5" Height="35"
+                    VerticalAlignment="Center" Click="Button2_Click" Content="Close">
+            </Button>
+        </Grid>
+    </StackPanel>
+</Window>

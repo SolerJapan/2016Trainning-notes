@@ -1,0 +1,15 @@
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\prj_CsFormsMasDet1.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\App_Data\CsFormsMasDet.mdf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\App_Data\CsFormsMasDet_log.ldf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\prj_CsFormsMasDet1.exe
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\prj_CsFormsMasDet1.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\EntityFramework.dll
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\EntityFramework.xml
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\obj\Debug\prj_CsFormsMasDet1.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\obj\Debug\prj_CsFormsMasDet1.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\obj\Debug\prj_CsFormsMasDet1.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\obj\Debug\prj_CsFormsMasDet1.exe
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\obj\Debug\prj_CsFormsMasDet1.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsMasDet1\prj_CsFormsMasDet1\obj\Debug\prj_CsFormsMasDet1.Form1.resources

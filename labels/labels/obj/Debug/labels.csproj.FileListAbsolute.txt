@@ -1,0 +1,10 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\labels\bin\Debug\labels.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\bin\Debug\labels.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\obj\Debug\labels.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\obj\Debug\labels.LabelTextBoxButtonTestForm.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\obj\Debug\labels.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\obj\Debug\labels.csproj.GenerateResource.Cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\bin\Debug\labels.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\bin\Debug\labels.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\obj\Debug\labels.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\labels\labels\obj\Debug\labels.pdb

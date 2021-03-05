@@ -1,0 +1,18 @@
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\prj_CsFormsMasDet.exe.config
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\App_Data\CsFormsMasDet.mdf
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\App_Data\CsFormsMasDet_log.ldf
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\prj_CsFormsMasDet.exe
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\prj_CsFormsMasDet.pdb
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\EntityFramework.dll
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\EntityFramework.SqlServer.dll
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\EntityFramework.xml
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\EntityFramework.SqlServer.xml
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.csprojResolveAssemblyReference.cache
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.Properties.Resources.resources
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.csproj.GenerateResource.Cache
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.exe
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.pdb
+D:\sys\vs_sln\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.tForm.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsFormsMasDet\prj_CsFormsMasDet\bin\Debug\prj_CsFormsMasDet.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsFormsMasDet\prj_CsFormsMasDet\obj\Debug\prj_CsFormsMasDet.pdb

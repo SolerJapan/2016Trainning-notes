@@ -1,0 +1,17 @@
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\prj_CsFormsTester.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\App_Data\CsFormsTester.mdf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\App_Data\CsFormsTester_log.ldf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\CsFormsTester.mdf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\CsFormsTester_log.ldf
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\prj_CsFormsTester.exe
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\prj_CsFormsTester.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\EntityFramework.dll
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\EntityFramework.xml
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\obj\Debug\prj_CsFormsTester.Form1.resources
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\obj\Debug\prj_CsFormsTester.Properties.Resources.resources
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\obj\Debug\prj_CsFormsTester.csproj.GenerateResource.Cache
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\obj\Debug\prj_CsFormsTester.exe
+c:\users\alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\obj\Debug\prj_CsFormsTester.pdb
+C:\Users\Alexander\documents\visual studio 2015\Projects\sln_CsFormsTester\prj_CsFormsTester\obj\Debug\prj_CsFormsTester.csprojResolveAssemblyReference.cache

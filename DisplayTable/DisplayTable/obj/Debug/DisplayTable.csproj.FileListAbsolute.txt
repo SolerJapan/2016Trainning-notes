@@ -1,0 +1,10 @@
+C:\Users\Alexander\AppData\Local\Temporary Projects\DisplayTable\bin\Debug\DisplayTable.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\bin\Debug\DisplayTable.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\bin\Debug\DisplayTable.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\bin\Debug\DisplayTable.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\obj\Debug\DisplayTable.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\obj\Debug\DisplayTable.DisplayTableForm.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\obj\Debug\DisplayTable.Properties.Resources.resources
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\obj\Debug\DisplayTable.csproj.GenerateResource.Cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\obj\Debug\DisplayTable.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\DisplayTable\DisplayTable\obj\Debug\DisplayTable.pdb

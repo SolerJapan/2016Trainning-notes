@@ -1,0 +1,13 @@
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\prj_CsConsHttp.exe.config
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\prj_CsConsHttp.exe
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\prj_CsConsHttp.pdb
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\Newtonsoft.Json.dll
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\System.Net.Http.Formatting.dll
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\Newtonsoft.Json.xml
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\System.Net.Http.Formatting.xml
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\obj\Debug\prj_CsConsHttp.csprojResolveAssemblyReference.cache
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\obj\Debug\prj_CsConsHttp.exe
+D:\Train_msf\Train_agile\sln_CsConsHttp\prj_CsConsHttp\obj\Debug\prj_CsConsHttp.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHttp\prj_CsConsHttp\bin\Debug\prj_CsConsHttp.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHttp\prj_CsConsHttp\obj\Debug\prj_CsConsHttp.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\sln_CsConsHttp\prj_CsConsHttp\obj\Debug\prj_CsConsHttp.pdb
